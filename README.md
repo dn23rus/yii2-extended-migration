@@ -3,7 +3,6 @@ Yii2 Extended Migration
 Yii2 Extended Migration extension provides additional functionality to migration.
 
 ##Installation
-------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -23,7 +22,6 @@ to the require section of your `composer.json` file.
 
 
 ##Usage
------
 
 Once the extension is installed, add this config to your `configs/main.php` :
 
@@ -32,7 +30,7 @@ Once the extension is installed, add this config to your `configs/main.php` :
         // ...
         'migrate' => [
             'class'        => yii\console\controllers\MigrateController::class,
-            'templateFile' => '@vendor/dmbur/yii2-extended-migration/views/migration.php',
+            'templateFile' => '@vendor/dn23rus/yii2-extended-migration/views/migration.php',
         ],
         // ...
     ],

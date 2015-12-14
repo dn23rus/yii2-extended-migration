@@ -2,7 +2,9 @@
 
 namespace dmbur\migration;
 
-class Migration extends \yii\db\Migration
+use yii\db\Migration;
+
+class ExtendedMigration extends Migration
 {
     protected $unqPrefix = 'UNQ';
     protected $idxPrefix = 'IDX';
