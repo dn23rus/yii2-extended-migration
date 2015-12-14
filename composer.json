@@ -2,7 +2,7 @@
     "name": "dn23rus/yii2-extended-migration",
     "description": "Yii2 Extended Migration",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","migraton"],
+    "keywords": ["yii2","extension","yii2 migration"],
     "license": "MIT",
     "authors": [
         {
