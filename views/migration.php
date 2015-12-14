@@ -3,12 +3,12 @@ echo '<?php' . PHP_EOL;
 ?>
 
 use yii\db\Schema;
-use dmbur\migration\Migration;
+use dmbur\migration\ExtendedMigration;
 
 /**
  * {@inheritdoc}
  */
-class <?= $className ?> extends Migration
+class <?= $className ?> extends ExtendedMigration
 {
     protected $table = '{{%...}}';
 
